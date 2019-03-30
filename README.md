@@ -3,7 +3,9 @@ For those people, who have problem with Olimex AVR-ISP-MK2 using avrdude version
 
 //FOR WINDOWS USERS//
 You can download compiled by me version of avrdude6.3, but if you want you can compile it by yourself.
+
 __HOWTO__
+
 1. Download latest avrdude with tar extension and unzip it somewhere(for example, "C:\avrdude-6.3"),
 2. Download MinGW and install it with C++ options,
 3. Download patch move it to avrdude folder - (https://savannah.nongnu.org/file/endpointdetect_pass1.patch?file_id=32171 if you can't dowload it from repo),
@@ -74,3 +76,6 @@ __HOWTO__
     
   5)make
     Thats all. At the end of compiling you can see, that you have no problem. If folder you need "avrdude.exe" and "avrdude.conf". Now       you can use Olimex with Avrdude6+.
+      
+        make[2]: Leaving directory `/c/avrdude-6.3/windows'
+        make[1]: Leaving directory `/c/avrdude-6.3'
