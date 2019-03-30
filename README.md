@@ -78,6 +78,7 @@ __HOWTO__
         DISABLED   linuxgpio
     
   5)make
+    
         make[2]: Leaving directory `/c/avrdude-6.3/windows'
         make[1]: Leaving directory `/c/avrdude-6.3'
   
