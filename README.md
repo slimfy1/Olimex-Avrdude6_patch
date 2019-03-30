@@ -80,3 +80,20 @@ __HOWTO__
       
         make[2]: Leaving directory `/c/avrdude-6.3/windows'
         make[1]: Leaving directory `/c/avrdude-6.3'
+
+//FOR LINUX USERS//
+You can download compiled by me version of avrdude6.3, but if you want you can compile it by yourself.
+
+__HOWTO__
+
+1. Download latest avrdude with tar extension and unzip it somewhere(for example, "/home/user/Document"),
+2. Intall "make" (for Ubuntu "sudo apt-get install make"),
+3. Open terminal and "cd" to avrdude source folder (for example, /home/user/Document/avrdude-6.3),
+5. Download patch move it to avrdude folder - (https://savannah.nongnu.org/file/endpointdetect_pass1.patch?file_id=32171 if you can't dowload it from repo)
+6. In terminal type:
+  1)./bootstrap
+  2)autoconf
+  3)cat endpointdetect_pass1.patch | patch -p0
+  4)make
+  5)sudo make install
+7. Now you can use avrdude in terminal.
