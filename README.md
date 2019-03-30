@@ -78,10 +78,11 @@ __HOWTO__
         DISABLED   linuxgpio
     
   5)make
-    Thats all. At the end of compiling you can see, that you have no problem. If folder you need "avrdude.exe" and "avrdude.conf". Now       you can use Olimex with Avrdude6+.
-      
         make[2]: Leaving directory `/c/avrdude-6.3/windows'
         make[1]: Leaving directory `/c/avrdude-6.3'
+  
+  6)Thats all. At the end of compiling you can see, that you have no problem. If folder you need "avrdude.exe" and "avrdude.conf". Now       you can use Olimex with Avrdude6+.
+      
         
 ![alt text](http://penguin.su/im_pic_article/123.jpg)
 
