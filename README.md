@@ -92,7 +92,7 @@ __HOWTO__
 
 1. Download latest avrdude with tar extension and unzip it somewhere(for example, "/home/user/Document"),
 2. Intall "make" (for Ubuntu "sudo apt-get install make"),
-3. Open terminal and "cd" to avrdude source folder (for example, /home/user/Document/avrdude-6.3),
+3. Open terminal and "cd" to avrdude source folder (for example, "/home/user/Document/avrdude-6.3"),
 5. Download patch move it to avrdude folder - (https://savannah.nongnu.org/file/endpointdetect_pass1.patch?file_id=32171 if you can't dowload it from repo)
 6. In terminal type:
   1)./bootstrap
