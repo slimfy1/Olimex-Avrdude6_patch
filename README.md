@@ -9,16 +9,15 @@ __HOWTO__
 1. Download latest avrdude with tar extension and unzip it somewhere(for example, "C:\avrdude-6.3"),
 2. Download MinGW and install it with C++ options,
 3. Download patch move it to avrdude folder - (https://savannah.nongnu.org/file/endpointdetect_pass1.patch?file_id=32171 if you can't dowload it from repo)
-
-4.download binary release of libusb-win32 (in my case libusb-win32-bin-1.2.3.0.zip) - (http://sourceforge.net/projects/libusb-win32/ if you can't download it from repo),
-5.copy from libusb package:
+4. Download binary release of libusb-win32 (in my case libusb-win32-bin-1.2.3.0.zip) - (http://sourceforge.net/projects/libusb-win32/ if you can't download it from repo),
+5. Copy from libusb package:
   include\usb.h    -> C:\MinGW\include\
   lib\gcc\libusb.a -> C:\MinGW\lib\
   bin\x86\libusb0_x86.dll (or other depending on your OS) -> C:\MinGW\bin\
 6. Now you need to open MinGW terminal. Location of it (if you don't change settings) "C:\MinGW\msys\1.0\msys.bat"
 7. Now you in MinGW terminal. First we use "cd" command to go to folder (For example, "cd C:\avrdude-6.3")
 8. If you did all right you will see in terminal something like "User@WIN-E1N7C5DGBH5 /c/avrdude-6.3". Now we need to compile avrdude and download patch.
-9. if terminal type:
+9. In terminal type:
   1)./bootstrap
     you will see somethink like:
     
