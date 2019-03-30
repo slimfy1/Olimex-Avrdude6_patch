@@ -18,6 +18,7 @@ __HOWTO__
 7. Now you in MinGW terminal. First we use "cd" command to go to folder (For example, "cd C:\avrdude-6.3")
 8. If you did all right you will see in terminal something like "User@WIN-E1N7C5DGBH5 /c/avrdude-6.3". Now we need to compile avrdude and download patch.
 9. In terminal type:
+
   1)./bootstrap
     you will see somethink like:
     
