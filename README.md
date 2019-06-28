@@ -22,7 +22,9 @@ __HOWTO__
 9. In terminal type:
 
   1)
-  > ./bootstrap
+  ```
+  ./bootstrap
+  ```
   you will see somethink like:
     
       + rm -rf autom4te.cache
