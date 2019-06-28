@@ -37,7 +37,9 @@ __HOWTO__
       + automake -a -c
 
    2)
-   > autoreconf --force --install
+   ```
+   autoreconf --force --install
+   ```
    you will see somethink like:
     
       $ autoreconf --force --install
@@ -51,7 +53,9 @@ __HOWTO__
       libtoolize: copying file `m4/lt~obsolete.m4'
       
   3)
-  > cat endpointdetect_pass1.patch | patch -p0
+  ```
+  cat endpointdetect_pass1.patch | patch -p0
+  ```
   you will see somethink like:
       
       $  cat endpointdetect_pass1.patch | patch -p0
@@ -67,7 +71,9 @@ __HOWTO__
       patching file usbdevs.h
  
   4)
-  > ./configure
+  ```
+  ./configure
+  ```
   you will see a lot of text.If all is ok you will see:
     
         Configuration summary:
@@ -84,7 +90,9 @@ __HOWTO__
         DISABLED   linuxgpio
     
   5)
-  > make
+  ```
+  make
+  ```
     
         make[2]: Leaving directory `/c/avrdude-6.3/windows'
         make[1]: Leaving directory `/c/avrdude-6.3'
