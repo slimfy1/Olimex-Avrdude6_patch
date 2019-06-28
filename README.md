@@ -21,7 +21,8 @@ __HOWTO__
 8. If you did all right you will see in terminal something like "User@WIN-E1N7C5DGBH5 /c/avrdude-6.3". Now we need to compile avrdude and download patch.
 9. In terminal type:
 
-  > 1)./bootstrap
+  1)
+  > ./bootstrap
     you will see somethink like:
     
       + rm -rf autom4te.cache
@@ -33,7 +34,8 @@ __HOWTO__
       + autoconf
       + automake -a -c
 
-   > 2)autoreconf --force --install
+   2)
+   >autoreconf --force --install
     you will see somethink like:
     
       $ autoreconf --force --install
@@ -46,7 +48,8 @@ __HOWTO__
       libtoolize: copying file `m4/ltversion.m4'
       libtoolize: copying file `m4/lt~obsolete.m4'
       
-  > 3)cat endpointdetect_pass1.patch | patch -p0
+  3)
+  > cat endpointdetect_pass1.patch | patch -p0
     you will see somethink like:
       
       $  cat endpointdetect_pass1.patch | patch -p0
@@ -61,7 +64,8 @@ __HOWTO__
       Hunk #2 succeeded at 243 (offset 7 lines).
       patching file usbdevs.h
  
-  > 4)./configure
+  4)
+  > ./configure
     you will see a lot of text.If all is ok you will see:
     
         Configuration summary:
@@ -77,7 +81,8 @@ __HOWTO__
         ENABLED    parport
         DISABLED   linuxgpio
     
-  > 5)make
+  5)
+  > make
     
         make[2]: Leaving directory `/c/avrdude-6.3/windows'
         make[1]: Leaving directory `/c/avrdude-6.3'
