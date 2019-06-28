@@ -23,7 +23,7 @@ __HOWTO__
 
   1)
   > ./bootstrap
-    you will see somethink like:
+  you will see somethink like:
     
       + rm -rf autom4te.cache
       + libtoolize
@@ -35,8 +35,8 @@ __HOWTO__
       + automake -a -c
 
    2)
-   >autoreconf --force --install
-    you will see somethink like:
+   > autoreconf --force --install
+   you will see somethink like:
     
       $ autoreconf --force --install
       libtoolize: putting auxiliary files in `.'.
@@ -50,7 +50,7 @@ __HOWTO__
       
   3)
   > cat endpointdetect_pass1.patch | patch -p0
-    you will see somethink like:
+  you will see somethink like:
       
       $  cat endpointdetect_pass1.patch | patch -p0
       patching file jtagmkII.c
@@ -66,7 +66,7 @@ __HOWTO__
  
   4)
   > ./configure
-    you will see a lot of text.If all is ok you will see:
+  you will see a lot of text.If all is ok you will see:
     
         Configuration summary:
         ----------------------
