@@ -1,7 +1,7 @@
 # Olimex AVR-ISP-MK2 patch for Avrdude 6.0+
 For those people, who have problem with Olimex AVR-ISP-MK2 using avrdude version 6.0+. In repos you can find avrdude with path for Linux user and for Windows users. (http://www.labor19.net/index.php/microcontroller/44-avrdude-patch - thank author for help!)
 
-![alt text](https://pbs.twimg.com/profile_images/1064689507260190720/U54M_YbJ_400x400.jpg)
+![alt text](http://json.tv/public/images/general/2016/08/05/thumbnail-20160805052419-1873.jpg)
 
 //FOR WINDOWS USERS//
 You can download compiled by me version of avrdude6.3, but if you want you can compile it by yourself.
